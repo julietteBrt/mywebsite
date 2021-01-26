@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
-    <main id="main">
+    <header id="header">
       <h1>FAQ</h1>
-      <div class="topnav">
-        <a href="../index.html">Home</a>
-        <a href="#news">News</a>
-        <a class= "active" href="faq.html">FAQ</a>
-      </div>
+    </header>
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a class= "active" href="faq.html">FAQ</a>
+    </div>
+    <main id="main">
       <h2>Frequently Asked Questions:</h2>
-      <ol>
-        <li>How to create lists in HTML?
-        <br>Use the tag <em>ol</em> for ordered lists and <em>ul</em> for unordered lists. Inside of those tags you can use <em>li</em> to create the points.</li>
-        <li>How to write in <strong>bold</strong> or <em>italic</em>?
-        <br>Thanks to <strong>strong</strong> and <em>em</em> tags! They are inline blocks so you can customize them to add a background color or anothing that you fancy.</li>
-      </ol>
+      <section class="faq-section">
+          <input type="checkbox" id="q1">
+          <label for="q1">How to create lists in HTML?</label>
+          <p>Lists are useful to clearly enumerate steps.</p>
+          <p>Use the tag <em>ol</em> for ordered lists and <em>ul</em> for unordered lists. Inside of those tags you can use <em>li</em> to create the points.</p>
+      </section>
+      <section class="faq-section">
+          <input type="checkbox" id="q2">
+          <label for="q2">How to write in <strong>bold</strong> or <em>italic</em>?</label>
+          <p>Bold and italic are great to enhance parts of your text.</p>
+          <p>Thanks to <strong>strong</strong> and <em>em</em> tags! They are inline blocks so you can customize them in a css file to add a background color or anothing that you fancy.</p>
+      </section>
+      <p class = "footer">ESILV - Semester 8, DIA1 - Juliette Barthet</p>
     </main>
   </body>
 </html>
